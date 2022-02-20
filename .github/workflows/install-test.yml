@@ -5,8 +5,7 @@ on:
     branches: [ main, actions ]
 
 jobs:
-  build:
-
+  install-test:
     runs-on: ${{ matrix.os }}
 
     strategy:
