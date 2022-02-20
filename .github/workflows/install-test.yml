@@ -25,7 +25,10 @@ jobs:
     
     - run: npm i .
     
-    - run: npx opniz -v
+    
+    - run: node ./dist/index.js -v
+    
+    # - run: npx opniz -v
     # - run: npx opniz arduino "version"
     
     # - run: npm ci
