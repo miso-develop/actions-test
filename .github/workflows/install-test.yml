@@ -25,6 +25,12 @@ jobs:
     
     - run: npm i .
     
+    - run: npx opniz -v
+    - run: npx opniz list
+    
+    - run: npx opniz arduino "version"
+    - run: npx opniz arduino "board list"
+    
     # - run: npm ci
     # - run: npm run build --if-present
     # - run: npm test
