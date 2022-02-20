@@ -27,6 +27,7 @@ jobs:
     
     
     - run: node ./dist/index.js -v
+    - run: node ./dist/index.js arduino "version"
     
     # - run: npx opniz -v
     # - run: npx opniz arduino "version"
